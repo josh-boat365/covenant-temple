@@ -1,0 +1,15 @@
+.person-title .evans-name {
+    color: #dda600;
+    font-weight: 900;
+}
+
+.person-title .kingsley-name {
+    color: #005ea1;
+    font-weight: 900;
+}
+
+.box-icon-bordered .children-service {
+    display: inline-block !important;
+    line-height: 0.2 !important;
+    font-size: 1.327rem !important;
+}
