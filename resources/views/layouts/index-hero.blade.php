@@ -1,0 +1,105 @@
+<div class="intro-line-table">
+    <div class="intro-line-row">
+        <div class="intro-line-col"></div>
+        <div class="intro-line-col intro-line-col-center"></div>
+        <div class="intro-line-col"></div>
+    </div>
+    <div class="intro-line-row intro-line-content">
+        <div class="intro-line-col"></div>
+        <div class="intro-line-col intro-line-col-center"></div>
+        <div class="intro-line-col"></div>
+    </div>
+    <div class="intro-line-row">
+        <div class="intro-line-col"></div>
+        <div class="intro-line-col intro-line-col-center intro-line-footer">
+            <div class="container" data-animate='{"class":"fadeIn"}'>
+                <div class="row row-25">
+                    <div class="col-lg-9 col-xl-7 text-center text-lg-left">
+                        <!-- Blurb link-->
+                        <div class="blurb blurb-link-2">
+                            <div class="blurb-icon text-white linearicons-compass2"></div>
+                            <div class="blurb-content">
+                                <h4 class="blurb-title"><a href="#">
+                                        Pokuase Near Ampax Hotel, Off Nsawam - Accra Road, GW-0120-1829</h4>
+                                <div class="blurb-subtitle">Feel free to visit our firm’s office at any
+                                    time.</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-xl-5 text-center text-lg-right">
+                        <div class="group-15 group-lg-30">
+                            <a class="icon icon-md icon-link icon-link-gray mdi-facebook"
+                                href="https://www.facebook.com/tccpokuaseofficial"></a>
+                            <a class="icon icon-md icon-link icon-link-gray mdi-youtube-play"
+                                href="https://www.youtube.com/@tccpokuase"></a>
+                            <!-- <a class="icon icon-md icon-link icon-link-gray mdi-twitter" href="#"></a> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="intro-line-col"></div>
+    </div>
+</div>
+<!-- Swiper slider-->
+<div class="swiper-container swiper-numbered" data-swiper>
+    <!-- Additional required wrapper-->
+    <div class="swiper-wrapper">
+        <!-- Slides-->
+        <div class="swiper-slide" style="background-image: url( {{ asset('images/background/bg1.jpg') }} )">
+            <div class="intro-line-container">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-10 col-lg-7">
+                            <div style="background-color: #0000008c; padding: 1.5rem">
+                                <h3 class="font-italic font-secondary"> Welcome to Our Church</h3>
+                                <h1>Join the prayer</h1>
+                                <p class="big">Calm Church is a Family of Faith that is committed to
+                                    Bible teaching and joyful worship for children, youth and adults of all
+                                    ages.</p>
+                            </div>
+                            <a class="btn btn-white" href="#">See More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="swiper-slide" style="background-image: url( {{ asset('images/background/bg2.jpg') }} )">
+            <div class="intro-line-container">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-10 col-lg-7">
+                            <div style="background-color: #0000008c; padding: 1.5rem">
+                                <h3 class="font-italic font-secondary"> Reconnect with the Creator</h3>
+                                <h1>Connect & Grow</h1>
+                                <p class="big">Our church is a perfect place for all local residents to
+                                    come in with their families and join for a prayer and a newfound peace
+                                    of mind.</p>
+                            </div>
+                            <a class="btn btn-white" href="#">See More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="swiper-slide" style="background-image: url( {{ asset('images/background/bg3.jpg') }} )">
+            <div class="intro-line-container">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-10 col-lg-7">
+                            <div style="background-color: #0000008c; padding: 1.5rem">
+                                <h3 class="font-italic font-secondary"> Embrace Your Faith</h3>
+                                <h1>Share the love</h1>
+                                <p class="big">At our church, we help people to find their way back to
+                                    God. We accomplish this by reaching people far from God.</p>
+                            </div>
+                            <a class="btn btn-white" href="#">See More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Pagination-->
+    <div class="swiper-pagination"></div>
+</div>

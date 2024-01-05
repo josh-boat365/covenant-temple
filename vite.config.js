@@ -7,6 +7,10 @@ export default defineConfig({
             input: [
                 'resources/css/app.css',
                 'resources/js/app.js',
+                'resources/components/base/base.css',
+                'resources/custom/custom.css',
+                'resources/components/base/core.min.js',
+                'resources/components/base/script.js',
             ],
             refresh: true,
         }),

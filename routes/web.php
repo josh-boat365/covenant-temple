@@ -23,7 +23,8 @@ Route::get('/', function () {
 
 Route::get('/about-us', [PagesController::class, 'about_us'])->name('about-us');
 Route::get('/contact-us', [PagesController::class, 'contact_us'])->name('contact-us');
-Route::get('/team-member', [PagesController::class, 'team_member'])->name('team-member');
+Route::get('/team-member', [PagesController::class, 'leadership'])->name('leadership');
+Route::get('/team-member', [PagesController::class, 'privacy_policy'])->name('privacy-policy');
 
 
 

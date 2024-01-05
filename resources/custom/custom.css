@@ -1,0 +1,42 @@
+.person-title .evans-name {
+    color: #dda600;
+    font-weight: 900;
+}
+
+.person-title .kingsley-name {
+    color: #005ea1;
+    font-weight: 900;
+}
+
+.box-icon-bordered .children-service {
+    display: inline-block !important;
+    line-height: 0.2 !important;
+    font-size: 1.327rem !important;
+}
+
+.desktop .person-poster .person-title .stephen-name {
+    text-wrap: nowrap;
+    color: #a10036;
+    font-weight: 900;
+}
+
+.rd-navbar .rd-navbar-line .about-bg {
+    background-color: #11468b6b !important;
+}
+
+body>div.page.page-revealed>section.section.page-title.bg-image.context-dark>header>nav .about-bg {
+    background-color: #11468b6b !important;
+}
+
+.navbar-container .navbar-responsive {
+    display: inline-flex;
+    justify-content: space-between !important;
+    align-items: center !important;
+    margin: 0rem 3rem 0rem 3rem !important;
+}
+
+.section .page-title .about-bg-image {
+    background-position: 0px -561px !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+}
