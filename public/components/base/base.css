@@ -5525,6 +5525,11 @@ button.bg-900:focus {
 .bg-darkest {
     background-color: #1b5a2a;
 }
+.about-bg-image {
+    background-position: 0px -561px !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+}
 
 .bg-image {
     background-position: center center;

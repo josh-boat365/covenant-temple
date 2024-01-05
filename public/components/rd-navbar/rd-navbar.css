@@ -634,12 +634,12 @@
 .rd-navbar-fullwidth .navbar-container {
     display: flex;
     justify-content: space-between;
-    align-items: stretch;
+    align-items: center;
     padding: 0 23px;
     height: 100%;
     max-width: 1790px;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 3rem;
+    margin-right: 3rem;
 }
 
 .rd-navbar-fullwidth .navbar-cell {
@@ -1700,7 +1700,8 @@
 }
 
 .page-title .rd-navbar-fullwidth {
-    background-color: rgba(255, 255, 255, 0.1);
+    /* background-color: rgba(255, 255, 255, 0.1); */
+     background-color: #11468b6b !important;
 }
 
 .page-title .rd-navbar-fullwidth.rd-navbar--is-stuck {
