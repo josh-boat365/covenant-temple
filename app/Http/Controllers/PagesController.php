@@ -16,15 +16,15 @@ class PagesController extends Controller
         return view('frontend.contact-us');
     }
 
-    public function team_member()
+    public function leadership()
     {
         return view('frontend.team-member');
     }
 
-    // public function about_us()
-    // {
-    //     return view('frontend.about-us');
-    // }
+    public function privacy_policy()
+    {
+        return view('frontend.privacy-policy');
+    }
 
     // public function about_us()
     // {
