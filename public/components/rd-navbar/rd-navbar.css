@@ -126,7 +126,7 @@
     align-items: center;
     height: 60px;
     box-shadow: 0 0 28px rgba(141, 141, 141, 0.1);
-    background: rgba(39, 43, 55, 0.9);
+    background: #10490fc9;
 }
 
 .rd-navbar-fixed .navbar-subpanel {
