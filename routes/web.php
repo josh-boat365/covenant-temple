@@ -15,7 +15,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('frontend.dev.index');
+    return view('frontend.dist.index');
 });
 
 Route::get('/dashboard', function () {
