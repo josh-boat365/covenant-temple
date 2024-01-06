@@ -1,60 +1,18 @@
 <x-base-layout>
 
     <!-- Cases-->
-        <section class="section-lg bg-100 text-center">
-            <div class="container container-wide">
-                <div class="row row-40 row-xl-55 row-xxl-100 row-offset-md">
-                    <div class="col-sm-6 col-lg-3" data-animate='{"class":"fadeInUpBig"}'>
-                        <!-- Thumbnail-->
-                        <div class="thumbnail thumbnail-light"><a class="thumbnail-media" href="#"><img
-                                    src="images/image-18-425x338.jpg" alt="" width="425"
-                                    height="338" /></a>
-                            <div class="thumbnail-subtitle">Explore the Bible with Us</div>
-                            <h4 class="thumbnail-title"><a href="#">Bible Readings</a></h4>
-                            <div class="thumbnail-divider"></div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-lg-3" data-animate='{"class":"fadeInUpBig","delay":".15s"}'>
-                        <!-- Thumbnail-->
-                        <div class="thumbnail thumbnail-light"><a class="thumbnail-media" href="#"><img
-                                    src="images/image-12-425x338.jpg" alt="" width="425"
-                                    height="338" /></a>
-                            <div class="thumbnail-subtitle">Take Part</div>
-                            <h4 class="thumbnail-title"><a href="#">Our Events</a></h4>
-                            <div class="thumbnail-divider"></div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-lg-3" data-animate='{"class":"fadeInUpBig","delay":".3s"}'>
-                        <!-- Thumbnail-->
-                        <div class="thumbnail thumbnail-light"><a class="thumbnail-media" href="#"><img
-                                    src="images/image-1-425x338.jpg" alt="" width="425"
-                                    height="338" /></a>
-                            <div class="thumbnail-subtitle">Locations</div>
-                            <h4 class="thumbnail-title"><a href="#">Our Church </a></h4>
-                            <div class="thumbnail-divider"></div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-lg-3" data-animate='{"class":"fadeInUpBig","delay":".45s"}'>
-                        <!-- Thumbnail-->
-                        <div class="thumbnail thumbnail-light"><a class="thumbnail-media" href="#"><img
-                                    src="images/image-8-425x338.jpg" alt="" width="425"
-                                    height="338" /></a>
-                            <div class="thumbnail-subtitle">Join Our Communities</div>
-                            <h4 class="thumbnail-title"><a href="#">Our Groups</a></h4>
-                            <div class="thumbnail-divider"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+        @include('layouts.sub-hero')
         <!-- About us-->
         <section class="section-md bg-transparent section-creative-top">
             <div class="container">
                 <div class="row">
                     <div class="col-md-10 col-lg-9" data-animate='{"class":"fadeIn"}'>
-                        <h3 class="text-decorated text-decorated-large">Our church incorporates God’s family into our
-                            fellowship. We provide a warm, authentic community, welcoming new believers into the body of
-                            Christ through baptism.</h3>
+                        <h3 class="text-decorated text-decorated-large">
+                            Triumphant Christian Center - Covenant Temple is the House of God where the 
+                            fundamental principles of our faith in Christ are a priority. Our activities are meant 
+                            to bring each member to that place of growth so that the person dedicated to God may 
+                            be capable and equipped for every good work.
+                        </h3>
                     </div>
                 </div>
             </div>
@@ -64,19 +22,22 @@
             <section class="section-double-top">
                 <div class="container">
                     <div class="layout layout-2">
-                        <div class="layout-media bg-image" style="background-image: url(images/image-19-837x551.jpg)"
+                        <div class="layout-media bg-image" style="background-image: url({{ asset('images/church.jpg') }})"
                             data-animate='{"class":"fadeInUpBig"}'></div>
                         <div class="layout-content bg-100" data-animate='{"class":"fadeInUpBig","delay":".2s"}'>
                             <h2>About Church</h2>
-                            <p>At TCC Logo Church, we want the love that Christ showed on the cross to flow out of our
+                            <p>At Triumphant Christian Center - Covenant Temple, we want the love that Christ showed on the cross to flow out of our
                                 lives, impacting the community.</p>
-                            <p>We come from all different backgrounds and cultures but are united in the pursuit and
-                                worship of Christ. Above all else, we want to glorify God. We strongly believe that God
-                                does His work through the local church and that it is a vital part of the Christian
-                                life. Please join us as we come together and let the Gospel transform us!</p>
+                            <p>
+                              At our church, we warmly welcome all into God's family, fostering a genuine community where everyone finds 
+                              belonging. Through baptism, we joyfully embrace new believers, deepening our connection in Christ. 
+                              Additionally, we run 'Raising Champions,' a program enabling donations to assist those in need within our 
+                              church community. We extend our support beyond by visiting orphanages, offering donations to brighten their 
+                              lives. Join us in this transformative journey of faith, where everyone is valued and uplifted in their spiritual walk.
+                            </p>
                             <div class="group-20 mt-5" data-lightgallery><a class="btn btn-primary"
                                     href="#">Donate Now</a><a class="btn btn-outline btn-icon lightgallery-item"
-                                    href="https://youtu.be/hNQFjqDvPhA">
+                                    href="#">
                                     <svg class="icon" width="9" height="12" viewBox="0 0 9 12"
                                         xmlns="http://www.w3.org/2000/svg">
                                         <path d="M9 6L4.64275e-07 11.1962L9.18537e-07 0.803847L9 6Z"></path>
@@ -323,61 +284,61 @@
         <!-- Our team-->
         <section class="section-md context-dark bg-900">
             <div class="container container-wide">
-                <h2 class="text-center">Meet Our Team</h2>
+                <h2 class="text-center">Meet The Leadership</h2>
                 <div class="row row-5 row-gutters-5 row-offset-lg person-poster-container">
                     <div class="col-sm-6 col-lg-3" data-animate='{"class":"fadeInUpBig"}'>
-                        <!-- Person--><a class="person person-poster" href="team-member.html">
+                        <!-- Person--><a class="person person-poster" href="#">
                             <div class="person-media bg-image"
-                                style="background-image: url(images/person/person-1-458x538.jpg)">
+                                style="background-image: url({{ asset('images/person/Evans-Okuma-Sakyi.png') }})">
                                 <div class="person-btn mdi mdi-arrow-right"></div>
                             </div>
                             <div class="person-content">
-                                <h3 class="person-title"><span>Edward Gray</span><span class="person-meta"> - Care
+                                <h3 class="person-title"><span>Evans Okuma Sakyi</span><span class="person-meta">   Head
                                         Pastor</span></h3>
-                                <div class="person-text text-decorated text-decorated-3">Edward Gray supports our
-                                    community groups and helps new parishioners.</div>
+                                {{--  <div class="person-text text-decorated text-decorated-3">Edward Gray supports our
+                                    community groups and helps new parishioners.</div>  --}}
                             </div>
                         </a>
                     </div>
                     <div class="col-sm-6 col-lg-3" data-animate='{"class":"fadeInUpBig","delay":".15s"}'>
-                        <!-- Person--><a class="person person-poster" href="team-member.html">
+                        <!-- Person--><a class="person person-poster" href="#">
                             <div class="person-media bg-image"
-                                style="background-image: url(images/person/person-2-458x538.jpg)">
+                                style="background-image: url({{ asset('images/person/Kingsley-Acheampong.png') }})">
                                 <div class="person-btn mdi mdi-arrow-right"></div>
                             </div>
                             <div class="person-content">
-                                <h3 class="person-title"><span>Kate Lee</span><span class="person-meta"> - Campus
+                                <h3 class="person-title"><span>Kingsley Acheampong</span><span class="person-meta">   Associate
                                         Pastor</span></h3>
-                                <div class="person-text text-decorated text-decorated-3">Kate supports our church
-                                    ministries while also upholding Biblical priorities.</div>
+                                {{--  <div class="person-text text-decorated text-decorated-3">Kate supports our church
+                                    ministries while also upholding Biblical priorities.</div>  --}}
                             </div>
                         </a>
                     </div>
                     <div class="col-sm-6 col-lg-3" data-animate='{"class":"fadeInUpBig","delay":".3s"}'>
-                        <!-- Person--><a class="person person-poster" href="team-member.html">
+                        <!-- Person--><a class="person person-poster" href="#">
                             <div class="person-media bg-image"
-                                style="background-image: url(images/person/person-3-458x538.jpg)">
+                                style="background-image: url({{ asset('images/person/Stephen-Nti.png') }})">
                                 <div class="person-btn mdi mdi-arrow-right"></div>
                             </div>
                             <div class="person-content">
-                                <h3 class="person-title"><span>Harry Smith</span><span class="person-meta"> - Senior
+                                <h3 class="person-title"><span>Stephen Nti Aniakwaa</span><span class="person-meta">   Youth
                                         Pastor</span></h3>
-                                <div class="person-text text-decorated text-decorated-3">Harry is our senior pastor who
-                                    oversees church management in all areas.</div>
+                                {{--  <div class="person-text text-decorated text-decorated-3">Harry is our senior pastor who
+                                    oversees church management in all areas.</div>  --}}
                             </div>
                         </a>
                     </div>
                     <div class="col-sm-6 col-lg-3" data-animate='{"class":"fadeInUpBig","delay":".45s"}'>
                         <!-- Person--><a class="person person-poster" href="team-member.html">
                             <div class="person-media bg-image"
-                                style="background-image: url(images/person/person-4-458x538.jpg)">
+                                style="background-image: url({{ asset('images/person/Frank-Anku.png') }})">
                                 <div class="person-btn mdi mdi-arrow-right"></div>
                             </div>
                             <div class="person-content">
-                                <h3 class="person-title"><span>Jane Peters</span><span class="person-meta"> - Youth
+                                <h3 class="person-title"><span>Frank Anku</span><span class="person-meta">   Childrens
                                         Pastor</span></h3>
-                                <div class="person-text text-decorated text-decorated-3">Harry is our senior pastor who
-                                    oversees church management in all areas.</div>
+                                {{--  <div class="person-text text-decorated text-decorated-3">Harry is our senior pastor who
+                                    oversees church management in all areas.</div>  --}}
                             </div>
                         </a>
                     </div>
@@ -385,40 +346,8 @@
             </div>
         </section>
         <!-- Practice-->
-        <section class="section-sm">
-            <div class="container">
-                <div class="layout layout-2">
-                    <div class="layout-media bg-image" style="background-image: url(images/image-13-837x551.jpg)"
-                        data-animate='{"class":"fadeInUpBig"}'></div>
-                    <div class="layout-content bg-100" data-animate='{"class":"fadeInUpBig","delay":".2s"}'>
-                        <div class="text-block-1">
-                            <h2>Download the App</h2>
-                            <p class="big">To stay connected with our church and receive the latest news and updates
-                                from us, download the free TCC Logo Church app that offers:</p>
-                            <div class="row row-15">
-                                <div class="col-sm-auto">
-                                    <ul class="list-marked">
-                                        <li class="list-item">Simple Donations</li>
-                                        <li class="list-item">Sermons</li>
-                                        <li class="list-item">Event Notifications</li>
-                                    </ul>
-                                </div>
-                                <div class="col-sm-6">
-                                    <ul class="list-marked">
-                                        <li class="list-item">Prayer Requests</li>
-                                        <li class="list-item">The Bible</li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="mt-5 group-20"><a class="btn btn-outline btn-icon" href="#"><span
-                                        class="mdi-apple icon"></span>Apple Store</a><a
-                                    class="btn btn-outline btn-icon mt-0" href="#"><span
-                                        class="icon mdi-google-play"></span>Apple Store</a></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+        {{--  Download App Section  --}}
+        
         <!-- Team member experience-->
         <section class="section-md bg-900 context-dark" id="consultation-form">
             <div class="container">
