@@ -20,7 +20,7 @@
                                 href="{{ route('index') }}">Home</a>
                         </li>
                         <li class="navbar-navigation-root-item"><a class="navbar-navigation-root-link"
-                                href="about-us.html">Donations</a>
+                                href="#">Donations</a>
                             <ul class="navbar-navigation-dropdown rd-navbar-dropdown">
                                 <li class="navbar-navigation-back">
                                     <button class="navbar-navigation-back-btn">Back</button>
@@ -37,110 +37,39 @@
                             </ul>
                         </li>
                         <li class="navbar-navigation-root-item"><a class="navbar-navigation-root-link"
-                                href="donations.html">Departments</a>
+                                href="#">Departments</a>
                             <ul class="navbar-navigation-dropdown rd-navbar-dropdown">
                                 <li class="navbar-navigation-back">
                                     <button class="navbar-navigation-back-btn">Back</button>
                                 </li>
                                 <li class="navbar-navigation-dropdown-item"><a class="navbar-navigation-dropdown-link"
-                                        href="single-donation.html">Music</a>
+                                        href="#">Music</a>
                                 </li>
                                 <li class="navbar-navigation-dropdown-item"><a class="navbar-navigation-dropdown-link"
-                                        href="single-donation.html">Ushers</a>
+                                        href="#">Ushers</a>
                                 </li>
                                 <li class="navbar-navigation-dropdown-item"><a class="navbar-navigation-dropdown-link"
-                                        href="single-donation.html">Media</a>
+                                        href="#">Media</a>
                                 </li>
                                 <li class="navbar-navigation-dropdown-item"><a class="navbar-navigation-dropdown-link"
-                                        href="single-donation.html">Welfare</a>
+                                        href="#">Welfare</a>
                                 </li>
                                 <li class="navbar-navigation-dropdown-item"><a class="navbar-navigation-dropdown-link"
-                                        href="single-donation.html">Prayer Tower</a>
+                                        href="#">Prayer Tower</a>
                                 </li>
                             </ul>
                         </li>
                         <li class="navbar-navigation-root-item navbar-navigation-item-hidden"><a
-                                class="navbar-navigation-root-link" href="#">Pages</a>
-                            <ul class="navbar-navigation-dropdown rd-navbar-dropdown">
-                                <li class="navbar-navigation-back">
-                                    <button class="navbar-navigation-back-btn">Back</button>
-                                </li>
-                                <li class="navbar-navigation-dropdown-item"><a class="navbar-navigation-dropdown-link"
-                                        href="#">Blog</a>
-                                    <ul class="navbar-navigation-dropdown rd-navbar-dropdown">
-                                        <li class="navbar-navigation-back">
-                                            <button class="navbar-navigation-back-btn">Back</button>
-                                        </li>
-                                        <li class="navbar-navigation-dropdown-item"><a
-                                                class="navbar-navigation-dropdown-link" href="classic-blog.html">Classic
-                                                blog</a>
-                                        </li>
-                                        <li class="navbar-navigation-dropdown-item"><a
-                                                class="navbar-navigation-dropdown-link" href="blog-post.html">Blog
-                                                post</a>
-                                        </li>
-                                        <li class="navbar-navigation-dropdown-item"><a
-                                                class="navbar-navigation-dropdown-link" href="blog-carousel.html">Blog
-                                                carousel</a>
-                                        </li>
-                                        <li class="navbar-navigation-dropdown-item"><a
-                                                class="navbar-navigation-dropdown-link" href="blog-grid.html">Blog
-                                                grid</a>
-                                        </li>
-                                        <li class="navbar-navigation-dropdown-item"><a
-                                                class="navbar-navigation-dropdown-link"
-                                                href="blog-grid-without-sidebar.html">Blog grid without
-                                                sidebar</a>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li class="navbar-navigation-dropdown-item"><a class="navbar-navigation-dropdown-link"
-                                        href="404.html">404</a>
-                                </li>
-                                <li class="navbar-navigation-dropdown-item"><a class="navbar-navigation-dropdown-link"
-                                        href="typography.html">Typography</a>
-                                </li>
-                                <li class="navbar-navigation-dropdown-item"><a class="navbar-navigation-dropdown-link"
-                                        href="coming-soon.html">Coming soon</a>
-                                </li>
-                                <li class="navbar-navigation-dropdown-item"><a class="navbar-navigation-dropdown-link"
-                                        href="search-results.html">Search results</a>
-                                </li>
-                            </ul>
+                                class="navbar-navigation-root-link" href="#">Gallery</a>
                         </li>
                         <li class="navbar-navigation-root-item navbar-navigation-item-hidden"><a
-                                class="navbar-navigation-root-link" href="sermons.html">Sermons</a>
-                            <ul class="navbar-navigation-dropdown rd-navbar-dropdown">
-                                <li class="navbar-navigation-back">
-                                    <button class="navbar-navigation-back-btn">Back</button>
-                                </li>
-                                <li class="navbar-navigation-dropdown-item"><a class="navbar-navigation-dropdown-link"
-                                        href="sermon-categories.html">Sermon Categories</a>
-                                </li>
-                                <li class="navbar-navigation-dropdown-item"><a class="navbar-navigation-dropdown-link"
-                                        href="single-sermon.html">Single Sermon</a>
-                                </li>
-                            </ul>
+                                class="navbar-navigation-root-link" href="#">Events</a>
                         </li>
                         <li class="navbar-navigation-root-item navbar-navigation-item-hidden"><a
-                                class="navbar-navigation-root-link" href="shop.html">Shop</a>
-                            <ul class="navbar-navigation-dropdown rd-navbar-dropdown">
-                                <li class="navbar-navigation-back">
-                                    <button class="navbar-navigation-back-btn">Back</button>
-                                </li>
-                                <li class="navbar-navigation-dropdown-item"><a class="navbar-navigation-dropdown-link"
-                                        href="single-product.html">Single product</a>
-                                </li>
-                                <li class="navbar-navigation-dropdown-item"><a class="navbar-navigation-dropdown-link"
-                                        href="checkout.html">Checkout</a>
-                                </li>
-                                <li class="navbar-navigation-dropdown-item"><a class="navbar-navigation-dropdown-link"
-                                        href="cart.html">Cart</a>
-                                </li>
-                            </ul>
+                                class="navbar-navigation-root-link" href="#">About us</a>
                         </li>
                         <li class="navbar-navigation-root-item navbar-navigation-item-hidden"><a
-                                class="navbar-navigation-root-link" href="contact-us.html">Contact us</a>
+                                class="navbar-navigation-root-link" href="#">Contact us</a>
                         </li>
                     </ul>
                 </div>

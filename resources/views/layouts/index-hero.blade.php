@@ -53,7 +53,7 @@
         <!-- Additional required wrapper-->
         <div class="swiper-wrapper">
             <!-- Slides-->
-            <div class="swiper-slide" style="background-image: url( images/background/bg-8-1920x930.jpg )">
+            <div class="swiper-slide" style="background-image: url( {{ asset('images/background/bg1.jpg') }})">
                 <div class="intro-line-container">
                     <div class="container">
                         <div class="row">
@@ -69,7 +69,7 @@
                     </div>
                 </div>
             </div>
-            <div class="swiper-slide" style="background-image: url( images/background/bg-9-1920x930.jpg )">
+            <div class="swiper-slide" style="background-image: url( {{ asset('images/background/bg2.jpg') }})">
                 <div class="intro-line-container">
                     <div class="container">
                         <div class="row">
@@ -84,7 +84,7 @@
                     </div>
                 </div>
             </div>
-            <div class="swiper-slide" style="background-image: url( images/background/bg-4-1920x930.jpg )">
+            <div class="swiper-slide" style="background-image: url( {{ asset('images/background/bg3.jpg') }} )">
                 <div class="intro-line-container">
                     <div class="container">
                         <div class="row">
